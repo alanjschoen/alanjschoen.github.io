@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Software developer/scientist currently working in New York.  Ich habe auch in Deutschland gelebt.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email](mailto:info@alanschoen.com)
