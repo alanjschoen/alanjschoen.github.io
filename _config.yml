@@ -6,7 +6,7 @@
 name: Alan Schoen
 
 # Short bio or description (displayed in the header)
-description: Scientist.  AT Through Hiker (Chat Cat, '16).
+description: Data science and hiking
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars2.githubusercontent.com/u/18555547?v=3&s=460
@@ -26,7 +26,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: alanschoen
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
