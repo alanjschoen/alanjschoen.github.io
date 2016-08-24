@@ -34,7 +34,8 @@ Several states are missing from the predictions, and they shown in plain white o
 
 Top 10 model features:  
 
-|Model Coefficient | Feature name|
+|**Model Coefficient** | **Feature name**|
+|:----------------|:------------|
 |8.013 | Percent Unemployment, 2014|
 |5.803 | White alone, not Hispanic or Latino, percent, 2014|
 |-5.463 | Hispanic or Latino, percent, 2014|
