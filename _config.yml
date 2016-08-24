@@ -68,6 +68,18 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
+# # Redcarpet
+# markdown: redcarpet
+# redcarpet:
+#   extensions:
+#     - no_intra_emphasis
+#     - fenced_code_blocks
+#     - autolink
+#     - tables
+#     - strikethrough
+#     - superscript
+#     - with_to_data
+
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
