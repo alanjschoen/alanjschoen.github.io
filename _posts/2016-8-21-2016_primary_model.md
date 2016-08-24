@@ -47,7 +47,12 @@ Top 10 model features:
 |3.129 | Date of Primary|
 |-3.011 | Housing units in multi-unit structures, percent, 2009-2013|
 
-Unemployment was the best predictor of Trump support.  This does not mean that Trump supporters are unemployed, but rather that they live in counties with high unemployment.  Nate Silver wrote an uncharacteristically insightful [article](http://fivethirtyeight.com/features/the-mythology-of-trumps-working-class-support/) on this topic.  A county's proportion of white residents predicted Trump support, and the opposite was true for the proportion of Hispanic or Latino residents.  Surprisingly, a higher percentage of foreign-born residents predicted more support for Trump.
+Some observations:  
+
+* Unemployment was the best predictor of Trump support.  This does not mean that Trump supporters are unemployed, but rather that they live in counties with high unemployment.  Nate Silver wrote an uncharacteristically insightful [article](http://fivethirtyeight.com/features/the-mythology-of-trumps-working-class-support/) on this topic.  
+* A county's proportion of white residents predicted Trump support, and the opposite was true for the proportion of Hispanic or Latino residents.
+
+* Surprisingly, a higher percentage of foreign-born residents, black residents, and Latino-owned businesses predicted more support for Trump.  I suspect that this is the result the Logistic Regression model combining correlated inputs to create complex features.  This would not be possible with a linear model that was solved algebraically, but logistic regression is trained through parameter optimization, so it does not have the same constraints.
 
 ## Basic Model: Bernie Sanders
 I produced a similar model for Bernie Sanders.
