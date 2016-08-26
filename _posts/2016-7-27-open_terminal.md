@@ -1,10 +1,10 @@
 ---
 layout: post
-title: How to open Terminal in a folder from OSX
+title: Tutorial: How to open Terminal in a folder from OSX
 published: True
 ---
 
-I wanted to be able to right-click a file in Finder and open that location in the Terminal.  After some searching, I found out that you can do this with Automator.  I found instructions [here](http://www.macworld.com/article/1047793/folderinterm.html) but they were out of date and several of the names of items have changed.  I created an updated version here.  
+This post will show you how to create a feature in OSX where you right click on a file, and it opens a Terminal in the containing folder.  After some searching, I found out that you can do this with Automator.  I found instructions [here](http://www.macworld.com/article/1047793/folderinterm.html) but they were out of date and some of the relevant pieces of Automator have changed.  So I wrote an updated version.  
 
 There is a method for doing this built into OSX, which you can [enable](http://www.howtogeek.com/210147/how-to-open-terminal-in-the-current-os-x-finder-location) , but it works in different circumstances.  The built-in Service only works when you right-click a folder, while this method will work on files and forlders.  Also, it can be customized to do special actions when it executes.  For instance, if you uncomment a line in the code in this example, it will run `ls`.
 
