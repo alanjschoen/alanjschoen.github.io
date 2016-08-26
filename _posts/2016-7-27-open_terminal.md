@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tutorial: How to open Terminal in a folder from OSX
+title: Tutorial - How to open Terminal in a folder from OSX
 published: True
 ---
 
