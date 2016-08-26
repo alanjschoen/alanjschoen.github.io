@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Monday Morning Primary Predictions - Did demographics decide the 2016 primaries?
+title: Armchair Primary Predictions - Did demographics decide the 2016 primaries?
 published: True
 ---
 <link rel="stylesheet" type="text/css" href="/main.css">
