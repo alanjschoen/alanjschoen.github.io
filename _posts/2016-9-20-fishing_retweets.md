@@ -21,6 +21,8 @@ I collected the twitter activity around 108 political reporters and journalists.
 
 I collected each users' tweets (including quotes, replies, and retweets), and tweets that mentioned them.  The users' quotes, replies, and retweets were the tweets I was most interested in, because these represent interactions with other users.  The tweets mentioning them were my control group, because they were cases where someone started an interaction that was not (usually) reciprocated.  Many of the users I tracked got so many mentions that I was not able to collect all of them.  Instead, I collected 100 tweets every hour.  I was able to estimate the overall rate by seeing how long it took to get 100 tweets.  This method gave me hourly and overall estimates of the rates, and I used these estimates to determine the overall probability that each user reacts to a tweet at them.  You can see an example of this analysis [here](https://github.com/alanjschoen/kojak/blob/master/Time%20Histogram.ipynb).
 
+{% include image_topcaption_tall.html url="/assets/kojak/lemon_time_ratio.png" description="The best times of day to tweet at @donlemon" %}
+
 
 
 
