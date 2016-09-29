@@ -7,16 +7,12 @@ published: True
 .styledtable {
     border-collapse: collapse;
 }
-
 .styledtable td, th {
     border: 1px solid #ddd;
     padding: 8px;
 }
-
 .styledtable tr:nth-child(even){background-color: #f2f2f2;}
-
 .styledtable tr:hover {background-color: #ddd;}
-
 .styledtable th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -29,7 +25,6 @@ published: True
 I presented my final project at Metis last thursday.  I talked about using ML to increase the chance that a famous newscaster would retweet me.  This post is a work in progress.
 
 Here are my [slides](/assets/fishing_retweets/twitter_metis_ajs.pdf).
-
 
 ## Motivation
 
@@ -58,10 +53,10 @@ I used two kinds of metadata: information about the tweet, and information about
 
 |Field|Description|
 |:-|:-|
-|`created_at`| Time of the tweet (UTC)|
+|`tweet/created_at`| Time of the tweet (UTC)|
 |`tweet/text`|Full text of the tweet|
 |`tweet/quoted_status` OR `tweet/retweeted_status`| When tweet contains another tweet, these fields contain information about the included tweet|
-|`in_reply_to_status_id`|When tweet is a reply, contains the ID of the original tweet|
+|`tweet/in_reply_to_status_id`|When tweet is a reply, contains the ID of the original tweet|
 |`tweet/is_quote_status`|Boolean indicating whether the tweet quotes another tweet|
 |`tweet/entities/user_mentions`|List of @handles in the tweet|
 |`tweet/entities/media`|List of photos and videos in the tweet|
@@ -74,9 +69,6 @@ I used two kinds of metadata: information about the tweet, and information about
 |`tweet/user/description`|Tweeter bio|
 |`tweet/user/friends_count`|Tweeter's count of mutual followers|
 {: .styledtable}
-
-
-
 
 ## Text analysis
 
