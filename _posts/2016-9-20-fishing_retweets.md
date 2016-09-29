@@ -3,6 +3,11 @@ layout: post
 title: Metis final project - Fishing for Retweets
 published: True
 ---
+
+I presented my final project at Metis last thursday.  I talked about using ML to increase the chance that a famous newscaster would retweet me.  This post is a work in progress.
+
+Here are my [slides](/assets/fishing_retweets/twitter_metis_ajs.pdf).
+
 <style>
 .styledtable {
     border-collapse: collapse;
@@ -21,11 +26,6 @@ published: True
     color: white;
 }
 </style>
-
-I presented my final project at Metis last thursday.  I talked about using ML to increase the chance that a famous newscaster would retweet me.  This post is a work in progress.
-
-Here are my [slides](/assets/fishing_retweets/twitter_metis_ajs.pdf).
-
 ## Motivation
 
 I set out to build a model that would tell me what tweets were likely to get retweeted by specific people.  I did not think there would be enough data about most individual users (except maybe Marc Andriessen) to train a model, so I would need to train a model to target a group of users that are presumed to have similar behavior.  I targeted political journalists because they're the gorup I'm most interested in interacting with on twitter.  My twitter feed consists of politics and hockey, and hockey players are not very interesting people [in conversation](https://www.youtube.com/watch?v=07r8UfdCphA).
