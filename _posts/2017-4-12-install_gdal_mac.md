@@ -4,7 +4,11 @@ title: How I installed GDAL on a Mac (El Capitan)
 published: True
 ---
 
-I work with a lot of geospatial data, and I depend on a system installation of GDAL.  GDAL lets me open geo-referenced TIF images, and it's a dependency for a lot of python packages like Shapely and GeoPandas.  If all I needed to do was use GDAL in python, I could try to install it through Anadona (`conda install -c https://conda.anaconda.org/ioos geopandas=0.2.1` note: this doesn't like python 3.6, so you might need to create a virtual environment with 3.5), but I also like to use some of GDAL's command like tools like `gdalinfo` and `gdal_pansharpen.py`.  So I had to suffer through a system-wide install for mac, which is a challenge.
+I work with a lot of geospatial data, and I depend on a system installation of GDAL.  GDAL lets me open geo-referenced TIF images, and it's a dependency for a lot of python packages like Shapely and GeoPandas.  If all I needed to do was use GDAL in python, I could try to install it through Anadona 
+```
+conda install -c https://conda.anaconda.org/ioos geopandas=0.2.1
+```
+note: this package was not compatible with python 3.6 when I tried it, so you might need to create a virtual environment with 3.5), but I also like to use some of GDAL's command like tools like `gdalinfo` and `gdal_pansharpen.py`.  So I had to suffer through a system-wide install for mac, which is a challenge.
 
 ## The legends say this can be done easily...
 I have heard legends that say this is as easy as installing from a keg in homebrew, but I was unable to confirm these legends. Maybe you want to give it a try anyway...
