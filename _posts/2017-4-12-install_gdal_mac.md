@@ -4,13 +4,13 @@ title: How I installed GDAL on a Mac (El Capitan)
 published: True
 ---
 
-I work with a lot of geospatial data, and I depend on a system installation of GDAL.  GDAL lets me open geo-referenced TIF images, and it's a dependency for a lot of python packages like Shapely and GeoPandas.  If all I needed to do was use GDAL in python, I could try to install it through Anadona 
+I work with a lot of geospatial data, and I depend on a system installation of GDAL.  GDAL lets me open geo-referenced TIF images, and it's a dependency for a lot of python packages like Shapely and GeoPandas.  If all I needed to do was use GDAL in python, I could try to install it through Anadona by running
 ```
 conda install -c https://conda.anaconda.org/ioos geopandas=0.2.1
 ```
-note: this package was not compatible with python 3.6 when I tried it, so you might need to create a virtual environment with 3.5), but I also like to use some of GDAL's command like tools like `gdalinfo` and `gdal_pansharpen.py`.  So I had to suffer through a system-wide install for mac, which is a challenge.
+(note: this package was not compatible with python 3.6 when I tried it, so you might need to create a virtual environment with 3.5), but I also like to use some of GDAL's command like tools like `gdalinfo` and `gdal_pansharpen.py`.  So I had to suffer through a system-wide install for mac, which is a challenge.
 
-## The legends say this can be done easily...
+# The legends say this can be done easily...
 I have heard legends that say this is as easy as installing from a keg in homebrew, but I was unable to confirm these legends. Maybe you want to give it a try anyway...
 ```
 brew tap osgeo/osgeo4mac
@@ -19,7 +19,7 @@ brew install gdal2
 
 If that doesnt work for you, then read on.
 
-## What worked for me
+# What worked for me
 I tried to build GDAL from source, but I had to deal with a lot of version conflicts to make it work.  At the system level on a mac, some of the packages are the wrong version and some others are just not in the right place where the installer will look for them.  I handled this using a few different tricks:
 * Telling GDAL to use interal packages whenever possible (jpeg, libtiff, etc)
 * Forcing homebrew to link some packanges
