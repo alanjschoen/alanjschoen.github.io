@@ -2,6 +2,7 @@
 layout: post
 title: US unemployment at different geographic scales
 published: True
+crosspost_to_medium: true
 ---
 
 I've spent a few weeks using Pandas and I'm starting to appreciate just how powerful it is.  I recently used it with geographic data for the first time, and that's the topic of this post.

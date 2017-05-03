@@ -2,6 +2,7 @@
 layout: post
 title: Armchair Primary Predictions - Did demographics decide the 2016 primaries?
 published: True
+crosspost_to_medium: true
 ---
 <link rel="stylesheet" type="text/css" href="/main.css">
 Many people made predictions about this year's primary, and many of these predictions turned out to be wrong.  I don't need to retread all of this information here, but suffice to say many people [underestimated Donald Trump](http://www.politico.com/story/2016/05/trump-pundits-wrong-predictions-222789) and [Bernie Sanders](http://www.dailykos.com/story/2016/4/6/1511308/-Why-is-538-wrong-so-often-about-the-Democratic-primary).

@@ -103,3 +103,4 @@ jekyll-crosspost_to_medium:
   enabled: true
   status: public
   backdate: true
+  text: <p><i>Crossposted to medium from <a href="http://alanschoen.com" rel=\"canonical\">on my own site</a>.</i></p>

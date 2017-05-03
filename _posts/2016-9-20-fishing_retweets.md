@@ -2,6 +2,7 @@
 layout: post
 title: Metis final project - Fishing for Retweets
 published: True
+crosspost_to_medium: true
 ---
 
 I presented my final project at Metis last thursday.  I talked about using ML to increase the chance that a famous newscaster would retweet me.  This post is a work in progress.

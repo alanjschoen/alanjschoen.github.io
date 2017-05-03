@@ -2,6 +2,7 @@
 layout: post
 title: How I installed GDAL on a Mac (El Capitan)
 published: True
+crosspost_to_medium: true
 ---
 
 I work with a lot of geospatial data, and I depend on a system installation of GDAL.  GDAL lets me open geo-referenced TIF images, and it's a dependency for a lot of python packages like Shapely and GeoPandas.  If all I needed to do was use GDAL in python, I could try to install it through Anadona by running
